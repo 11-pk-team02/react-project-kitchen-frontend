@@ -10,6 +10,8 @@ import {
   APPLY_TAG_FILTER
 } from '../../constants/actionTypes';
 
+import { Typography } from '../../ui/typography';
+
 const Promise = global.Promise;
 
 const mapStateToProps = state => ({
@@ -47,6 +49,9 @@ class Home extends React.Component {
 
         <Banner token={this.props.token} appName={this.props.appName} />
         <div className="container page">
+
+          <Typography.Title>Пример использования Typography.Title</Typography.Title>
+          <Typography.Text>Пример использования Typography.Text</Typography.Text>
 
           <div className="row">
             <MainView />
