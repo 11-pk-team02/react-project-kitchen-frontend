@@ -4,7 +4,7 @@ import classNames from 'classnames';
 
 import './typography.css';
 
-const Typography = ({ type = 'text', tagName = 'div', children, classes, ...other }) => {
+export const Typography = ({ type = 'text', tagName = 'div', children, classes, ...other }) => {
     return React.createElement(
         tagName,
         {
@@ -28,5 +28,3 @@ Typography.propTypes = {
     classes: PropTypes.string,
     children: PropTypes.node
 }
-
-export default Typography;
