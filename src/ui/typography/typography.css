@@ -1,0 +1,53 @@
+.h1 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(var(--offset-base-size) * 16);
+    line-height: calc(var(--offset-base-size) * 16);
+    color: var(--text-secondary);
+}
+
+.h2 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(var(--offset-base-size) * 8);
+    line-height: calc(var(--offset-base-size) * 10);
+    color: var(--text-secondary);
+}
+
+.headline {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(var(--offset-base-size) * 6);
+    line-height: calc(var(--offset-base-size) * 7);
+    color: var(--text-secondary);
+}
+
+.text, .textLink {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(var(--offset-base-size) * 4);
+    line-height: calc(var(--offset-base-size) * 6);
+    color: var(--text-secondary);
+}
+
+.textLink {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.textLink:hover {
+    color: var(--accent);
+}
+
+.caption {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(var(--offset-base-size) * 3);
+    line-height: calc(var(--offset-base-size) * 4);
+    color: var(--text-secondary);
+}
