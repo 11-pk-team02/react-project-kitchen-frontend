@@ -1,0 +1,18 @@
+:root {
+    /* Size */
+    --offset-base-size: 4px;
+
+    /* Text */
+    --text-secondary: #8585AD;
+    --text-primary: #F2F2F3;
+    --text-success: #00CCCC;
+    --text-alert: #F20D33;
+
+    /* Background */
+    --bg-primary: #131316;
+    --bg-secondary: #1C1C21;
+
+    /* Common */
+    --accent: #4C4CFF;
+    --input: #2F2F37;
+}

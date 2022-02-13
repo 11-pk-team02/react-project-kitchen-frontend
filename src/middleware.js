@@ -32,7 +32,13 @@ const promiseMiddleware = store => next => action => {
         }
         console.log('ERROR', error);
         action.error = true;
-        action.payload = error.response.body;
+        
+        if (error.response) {
+          action.payload = error.response.body;
+        } else {
+          action.payload = error.toString();
+        }
+
         if (!action.skipTracking) {
           store.dispatch({ type: ASYNC_END, promise: action.payload });
         }
